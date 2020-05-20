@@ -1,12 +1,13 @@
-<img src="/img/ELK-logo.jpg">
+<img src="/img/logo.png">
 
 # :sound: Network Traffic Analysis ด้วยเครื่องมือ Elastiflow
 &ensp; ศึกษาข้อมูลเกี่ยวกับ Traffic ที่เกิดขึ้นบน Network โดยผ่าน external module ของ logstash ที่มีชื่อว่า Elastiflow ซึ่งจะเก็บ packet ลงใน Elasticserch แล้วนำมาวิเคราะห์เกี่ยวกับข้อมูลที่ต้องการนำมาดูความเสี่ยงจำพวก Botnet หรือ malware รวมไปทั้ง Brute Force หรือปริมาณของข้อมูลที่ส่งออกและได้รับมากน้อยเพียงใดเพื่อหาวิธีการแก้ไขปัญหาและสามารถป้องกันช่องโหวงนั้นได้อย่างทันท่วงที 
-+ kibana
-+ Logstash
-+ Elasticsearch
-## Document 
++ Elasticsearch [Dowloand Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
++ Logstash [Dowloand Logstash](https://www.elastic.co/downloads/logstash)
++ kibana [Dowloand Kibana](https://www.elastic.co/downloads/kibana)
 
+## Document 
+link : https://docs.google.com/document/d/1kmxd2ttocu6bilvRlLaSS8sOwrz3t7pidmixF8pahec
 
 ## Members
 |<img src="/img/61070155.jpg" width="120" height="120"></a>|<img src="/img/61070161.jpg" width="120" height="120"></a>|<img src="/img/61070184.jpg" width="120" height="120"></a>|<img src="/img/61070217.jpg" width="120" height="120"></a>|<img src="/img/61070235.jpg" width="120" height="120"></a>|
