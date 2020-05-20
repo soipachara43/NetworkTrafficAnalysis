@@ -1,0 +1,28 @@
+[2020-05-16T16:43:08,033][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"D:/elastic_stack/logstash-7.7.0/data/queue"}
+[2020-05-16T16:43:08,147][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"D:/elastic_stack/logstash-7.7.0/data/dead_letter_queue"}
+[2020-05-16T16:43:08,233][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-05-16T16:43:08,242][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.0"}
+[2020-05-16T16:43:08,287][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"cfe7150a-2486-4012-b1a0-8b2721678f93", :path=>"D:/elastic_stack/logstash-7.7.0/data/uuid"}
+[2020-05-16T16:43:08,847][INFO ][logstash.config.source.local.configpathloader] No config files found in path {:path=>"C:/Users/THE BEGINS/Desktop/work/logstash.conf"}
+[2020-05-16T16:43:08,864][ERROR][logstash.config.sourceloader] No configuration found in the configured sources.
+[2020-05-16T16:43:09,428][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-05-16T16:43:14,080][INFO ][logstash.runner          ] Logstash shut down.
+[2020-05-16T16:45:02,540][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2020-05-16T16:45:02,657][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"7.7.0"}
+[2020-05-16T16:45:05,015][INFO ][org.reflections.Reflections] Reflections took 152 ms to scan 1 urls, producing 21 keys and 41 values 
+[2020-05-16T16:45:06,199][INFO ][logstash.outputs.elasticsearch][main] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2020-05-16T16:45:06,423][WARN ][logstash.outputs.elasticsearch][main] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2020-05-16T16:45:06,525][INFO ][logstash.outputs.elasticsearch][main] ES Output version determined {:es_version=>7}
+[2020-05-16T16:45:06,530][WARN ][logstash.outputs.elasticsearch][main] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>7}
+[2020-05-16T16:45:06,608][INFO ][logstash.outputs.elasticsearch][main] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2020-05-16T16:45:06,673][INFO ][logstash.outputs.elasticsearch][main] Using default mapping template
+[2020-05-16T16:45:06,812][WARN ][org.logstash.instrument.metrics.gauge.LazyDelegatingGauge][main] A gauge metric of an unknown type (org.jruby.specialized.RubyArrayOneObject) has been created for key: cluster_uuids. This may result in invalid serialization.  It is recommended to log an issue to the responsible developer/development team.
+[2020-05-16T16:45:06,820][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>500, "pipeline.sources"=>["C:/Users/THE BEGINS/Desktop/work/logstash.conf"], :thread=>"#<Thread:0x4ef9ffdb run>"}
+[2020-05-16T16:45:06,902][INFO ][logstash.outputs.elasticsearch][main] Attempting to install template {:manage_template=>{"index_patterns"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s", "number_of_shards"=>1}, "mappings"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}
+[2020-05-16T16:45:07,057][INFO ][logstash.outputs.elasticsearch][main] Installing elasticsearch template to _template/logstash
+[2020-05-16T16:45:09,109][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+[2020-05-16T16:45:09,255][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+[2020-05-16T16:45:09,557][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2020-05-16T18:48:52,741][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2020-05-16T18:48:52,990][INFO ][logstash.javapipeline    ] Pipeline terminated {"pipeline.id"=>"main"}
+[2020-05-16T18:48:53,183][INFO ][logstash.runner          ] Logstash shut down.
