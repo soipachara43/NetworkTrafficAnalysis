@@ -20,4 +20,4 @@ link : https://docs.google.com/document/d/1kmxd2ttocu6bilvRlLaSS8sOwrz3t7pidmixF
 |<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Chotipat-300x300.jpg" width="120" height="120"></a>|<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Sumet-300x300.jpg" width="120" height="120"></a>|<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2018/03/Lapas-300x300.jpg" width="120" height="120"></a>|
 |:---------------------:|:---------------------:|:---------------------:|
 |รศ.ดร.โชติพัชร์ ภรณวลัย     |ผศ.ดร.สุเมธ ประภาวัต |ผศ.ดร.ลภัส ประดิษฐ์ทัศนีย์ |
->เป็นส่วนหนึ่งในโปรเจคในรายวิชา PRACTICAL COMPUTER NETWORKING รหัสวิชา 06016331 ปีการศึกษา 2/2562
+>เป็นส่วนหนึ่งในโปรเจคในรายวิชา PRACTICAL COMPUTER NETWORKING รหัสวิชา 06016331 และวิชา INTERCONNECTED COMMUNICATION NETWORKS รหัสวิชา 06016332 ภาคเรียนที่ 2 ปีการศึกษา 2562
