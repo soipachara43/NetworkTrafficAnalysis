@@ -1,0 +1,74 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "uiActions",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/lodash/package.json": 1589249591019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/action.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/create_action.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/incompatible_action_error.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/index.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/build_eui_context_menu_panels.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/index.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/open_context_menu.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/index.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/plugin.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/service/index.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/service/ui_actions_service.js": 1589249551091,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/apply_filter_trigger.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/index.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/select_range_trigger.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger_contract.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger_internal.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/value_click_trigger.js": 1589249551099,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/types.js": 1589249551091,
+      "/home/vagrant/projects/kibana/node_modules/events/package.json": 1589249592349
+    }
+  },
+  "moduleCount": 21,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/lodash/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/action.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/create_action.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/incompatible_action_error.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/actions/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/build_eui_context_menu_panels.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/context_menu/open_context_menu.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/service/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/service/ui_actions_service.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/apply_filter_trigger.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/select_range_trigger.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger_contract.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger_internal.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/trigger.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/triggers/value_click_trigger.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/ui_actions/public/types.js",
+    "/home/vagrant/projects/kibana/node_modules/events/package.json"
+  ]
+}

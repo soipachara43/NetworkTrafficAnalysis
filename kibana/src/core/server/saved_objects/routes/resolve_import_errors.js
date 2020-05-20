@@ -1,0 +1,91 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.registerResolveImportErrorsRoute = void 0;
+
+var _path = require("path");
+
+var _configSchema = require("@kbn/config-schema");
+
+var _import = require("../import");
+
+var _utils = require("./utils");
+
+/*
+ * Licensed to Elasticsearch B.V. under one or more contributor
+ * license agreements. See the NOTICE file distributed with
+ * this work for additional information regarding copyright
+ * ownership. Elasticsearch B.V. licenses this file to you under
+ * the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+const registerResolveImportErrorsRoute = (router, config) => {
+  const {
+    maxImportExportSize,
+    maxImportPayloadBytes
+  } = config;
+  router.post({
+    path: '/_resolve_import_errors',
+    options: {
+      body: {
+        maxBytes: maxImportPayloadBytes,
+        output: 'stream',
+        accepts: 'multipart/form-data'
+      }
+    },
+    validate: {
+      body: _configSchema.schema.object({
+        file: _configSchema.schema.stream(),
+        retries: _configSchema.schema.arrayOf(_configSchema.schema.object({
+          type: _configSchema.schema.string(),
+          id: _configSchema.schema.string(),
+          overwrite: _configSchema.schema.boolean({
+            defaultValue: false
+          }),
+          replaceReferences: _configSchema.schema.arrayOf(_configSchema.schema.object({
+            type: _configSchema.schema.string(),
+            from: _configSchema.schema.string(),
+            to: _configSchema.schema.string()
+          }), {
+            defaultValue: []
+          })
+        }))
+      })
+    }
+  }, router.handleLegacyErrors(async (context, req, res) => {
+    const file = req.body.file;
+    const fileExtension = (0, _path.extname)(file.hapi.filename).toLowerCase();
+
+    if (fileExtension !== '.ndjson') {
+      return res.badRequest({
+        body: `Invalid file extension ${fileExtension}`
+      });
+    }
+
+    const supportedTypes = context.core.savedObjects.typeRegistry.getImportableAndExportableTypes().map(type => type.name);
+    const result = await (0, _import.resolveSavedObjectsImportErrors)({
+      supportedTypes,
+      savedObjectsClient: context.core.savedObjects.client,
+      readStream: (0, _utils.createSavedObjectsStreamFromNdJson)(file),
+      retries: req.body.retries,
+      objectLimit: maxImportExportSize
+    });
+    return res.ok({
+      body: result
+    });
+  }));
+};
+
+exports.registerResolveImportErrorsRoute = registerResolveImportErrorsRoute;

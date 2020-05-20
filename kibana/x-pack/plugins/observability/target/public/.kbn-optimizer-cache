@@ -1,0 +1,66 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "observability",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/is-prop-valid/package.json": 1589249625166,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/memoize/package.json": 1589249628458,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/stylis/package.json": 1589249625169,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/unitless/package.json": 1589249625182,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/@kbn/analytics/package.json": 1589250836229.196,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/hoist-non-react-statics/package.json": 1589249578043,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/react-is/package.json": 1589249578066,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/shallowequal/package.json": 1589249583737,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/node_modules/styled-components/package.json": 1589249621583,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/components/action_menu.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/hooks/use_track_metric.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/index.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/plugin.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/eui_draggable/index.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/eui_styled_components.js": 1589249555061,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/index.js": 1589249555061,
+      "/home/vagrant/projects/kibana/node_modules/process/package.json": 1589249592375
+    }
+  },
+  "moduleCount": 27,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/is-prop-valid/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/memoize/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/stylis/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/@emotion/unitless/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/@kbn/analytics/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/hoist-non-react-statics/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/react-is/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/shallowequal/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/node_modules/styled-components/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/components/action_menu.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/hooks/use_track_metric.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/eui_draggable/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/eui_styled_components.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/observability/public/typings/index.js",
+    "/home/vagrant/projects/kibana/node_modules/process/package.json"
+  ]
+}

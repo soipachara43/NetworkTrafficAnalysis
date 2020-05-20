@@ -1,0 +1,72 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "drilldowns",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/flyout_create_drilldown/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/flyout_edit_drilldown/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_hello_bar/drilldown_hello_bar.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_hello_bar/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_picker/drilldown_picker.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_picker/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/flyout_create_drilldown.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/i18n.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/flyout_frame.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/i18n.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/form_create_drilldown.js": 1589249554000,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/i18n.js": 1589249554000,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/index.js": 1589249554000,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/index.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/plugin.js": 1589249553996,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/service/drilldown_service.js": 1589249554000,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/service/index.js": 1589249554000
+    }
+  },
+  "moduleCount": 20,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/flyout_create_drilldown/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/flyout_edit_drilldown/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/actions/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_hello_bar/drilldown_hello_bar.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_hello_bar/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_picker/drilldown_picker.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/drilldown_picker/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/flyout_create_drilldown.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/i18n.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_create_drilldown/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/flyout_frame.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/i18n.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/flyout_frame/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/form_create_drilldown.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/i18n.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/components/form_create_drilldown/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/service/drilldown_service.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/drilldowns/public/service/index.js"
+  ]
+}

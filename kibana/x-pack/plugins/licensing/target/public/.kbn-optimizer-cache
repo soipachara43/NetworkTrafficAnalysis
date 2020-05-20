@@ -1,0 +1,48 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "licensing",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/has_license_info_changed.js": 1589249554409,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/license_update.js": 1589249554409,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/license.js": 1589249554409,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/types.js": 1589249554413,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/expired_banner.js": 1589249554413,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/index.js": 1589249554413,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/plugin.js": 1589249554413,
+      "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/types.js": 1589249554413
+    }
+  },
+  "moduleCount": 8,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/has_license_info_changed.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/license_update.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/license.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/common/types.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/expired_banner.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/x-pack/plugins/licensing/public/types.js"
+  ]
+}

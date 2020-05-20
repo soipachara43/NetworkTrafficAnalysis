@@ -1,0 +1,28 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.UtilityBarText = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _styles = require("./styles");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+ * Copyright Elasticsearch B.V. and/or licensed to Elasticsearch B.V. under one
+ * or more contributor license agreements. Licensed under the Elastic License;
+ * you may not use this file except in compliance with the Elastic License.
+ */
+var UtilityBarText = _react.default.memo(function (_ref) {
+  var children = _ref.children,
+      dataTestSubj = _ref.dataTestSubj;
+  return _react.default.createElement(_styles.BarText, {
+    "data-test-subj": dataTestSubj
+  }, children);
+});
+
+exports.UtilityBarText = UtilityBarText;
+UtilityBarText.displayName = 'UtilityBarText';

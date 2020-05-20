@@ -1,0 +1,66 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "charts",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/d3/package.json": 1589249605300,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/lodash/package.json": 1589249591019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/index.js": 1589249550447,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/plugin.js": 1589249550447,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/color_palette.js": 1589249550447,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/colors.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/index.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/mapped_colors.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/seed_colors.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/index.js": 1589249550447,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/theme/index.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/theme/theme.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/color_maps.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/heatmap_color.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/index.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/truncated_color_maps.js": 1589249550451,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/index.js": 1589249550451
+    }
+  },
+  "moduleCount": 17,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/d3/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/lodash/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/color_palette.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/colors.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/mapped_colors.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/colors/seed_colors.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/theme/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/services/theme/theme.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/color_maps.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/heatmap_color.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/color_maps/truncated_color_maps.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/charts/public/static/index.js"
+  ]
+}

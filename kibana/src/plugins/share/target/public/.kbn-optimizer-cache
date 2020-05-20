@@ -1,0 +1,72 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "share",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/share",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/common/short_url_routes.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/components/share_context_menu.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/components/url_panel_content.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/index.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/lib/url_shortener.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/plugin.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/index.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/share_menu_manager.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/share_menu_registry.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/short_url_redirect_app.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/types.js": 1589249551011,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/index.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_contract.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_definition.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_internal.js": 1589249551019,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_service.js": 1589249551019,
+      "/home/vagrant/projects/kibana/node_modules/punycode/package.json": 1589249592390,
+      "/home/vagrant/projects/kibana/node_modules/querystring-es3/package.json": 1589249592395,
+      "/home/vagrant/projects/kibana/node_modules/url/package.json": 1589249592458,
+      "/home/vagrant/projects/kibana/node_modules/webpack/package.json": 1589249591133
+    }
+  },
+  "moduleCount": 24,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/common/short_url_routes.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/components/share_context_menu.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/components/url_panel_content.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/lib/url_shortener.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/share_menu_manager.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/share_menu_registry.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/services/short_url_redirect_app.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/types.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_contract.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_definition.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_internal.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/share/public/url_generators/url_generator_service.js",
+    "/home/vagrant/projects/kibana/node_modules/punycode/package.json",
+    "/home/vagrant/projects/kibana/node_modules/querystring-es3/package.json",
+    "/home/vagrant/projects/kibana/node_modules/url/package.json",
+    "/home/vagrant/projects/kibana/node_modules/webpack/package.json"
+  ]
+}

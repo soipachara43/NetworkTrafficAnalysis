@@ -1,0 +1,74 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "telemetry",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/semver/package.json": 1589249578539,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/constants.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_allow_changing_opt_in_status.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_failure_details.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_notify_user_about_optin_default.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_opt_in.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_send_usage_from.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/index.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opt_in_banner.js": 1589249551027,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opt_in_message.js": 1589249551027,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opted_in_notice_banner.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/index.js": 1589249551023,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/plugin.js": 1589249551027,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/index.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/index.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/render_opt_in_banner.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/render_opted_in_notice_banner.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/telemetry_notifications.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_sender.js": 1589249551031,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_service.js": 1589249551031,
+      "/home/vagrant/projects/kibana/node_modules/process/package.json": 1589249592375
+    }
+  },
+  "moduleCount": 21,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/semver/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/constants.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_allow_changing_opt_in_status.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_failure_details.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_notify_user_about_optin_default.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_opt_in.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/get_telemetry_send_usage_from.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/common/telemetry_config/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opt_in_banner.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opt_in_message.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/components/opted_in_notice_banner.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/plugin.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/render_opt_in_banner.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/render_opted_in_notice_banner.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_notifications/telemetry_notifications.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_sender.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/telemetry/public/services/telemetry_service.js",
+    "/home/vagrant/projects/kibana/node_modules/process/package.json"
+  ]
+}

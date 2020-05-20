@@ -1,0 +1,56 @@
+{
+  "optimizerCacheKey": {
+    "workerConfig": {
+      "cache": false,
+      "dist": true,
+      "profileWebpack": false,
+      "repoRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "watch": false,
+      "optimizerCacheKey": "♻",
+      "browserslistEnv": "production"
+    },
+    "lastCommit": "c5f682cbbc285976de805f96580aff05f0c8a10f",
+    "bootstrap": "# this is only human readable for debugging, please don't try to parse this\n@kbn/babel-preset:d46ee7ad4e2540040c6d6838278506583aefc394\n@kbn/dev-utils:c8e3e0defdadd837668f75c8aa848d8cbda65688\n@kbn/expect:d8f5076701581dd9ba3805eb0f1f37adc576c179\n@kbn/i18n:e3aa574bd46a10f13976f52c9a319db5b65548ef\n@kbn/optimizer:20749813ab4470ea9f3a99e991cc8e118947860b\n@kbn/ui-shared-deps:1ed802ea65c00d0aad53d08b5808488351949d39",
+    "deletedPaths": [],
+    "modifiedTimes": {}
+  },
+  "cacheKey": {
+    "spec": {
+      "type": "plugin",
+      "id": "newsfeed",
+      "entry": "./public/index",
+      "contextDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed",
+      "sourceRoot": "/home/vagrant/projects/kibana/build/kibana",
+      "outputDir": "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/target/public"
+    },
+    "mtimes": {
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/classnames/package.json": 1589249579345,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/fbjs/package.json": 1589249596085,
+      "/home/vagrant/projects/kibana/build/kibana/node_modules/prop-types/package.json": 1589249595178,
+      "/home/vagrant/projects/kibana/build/kibana/src/legacy/core_plugins/newsfeed/public/np_ready/components/header_alert/header_alert.js": 1589249549886,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/constants.js": 1589249550999,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/empty_news.js": 1589249550999,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/flyout_list.js": 1589249551003,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/loading_news.js": 1589249551003,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/newsfeed_header_nav_button.js": 1589249551003,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/index.js": 1589249550999,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/lib/api.js": 1589249551003,
+      "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/plugin.js": 1589249550999
+    }
+  },
+  "moduleCount": 15,
+  "files": [
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/classnames/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/fbjs/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/node_modules/prop-types/package.json",
+    "/home/vagrant/projects/kibana/build/kibana/src/legacy/core_plugins/newsfeed/public/np_ready/components/header_alert/header_alert.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/constants.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/empty_news.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/flyout_list.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/loading_news.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/components/newsfeed_header_nav_button.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/index.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/lib/api.js",
+    "/home/vagrant/projects/kibana/build/kibana/src/plugins/newsfeed/public/plugin.js"
+  ]
+}
