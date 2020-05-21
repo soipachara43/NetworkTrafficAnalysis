@@ -1,0 +1,103 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+import React from 'react';
+import PropTypes from "prop-types";
+import classNames from 'classnames';
+import { LEFT_ALIGNMENT, RIGHT_ALIGNMENT, CENTER_ALIGNMENT } from '../../services';
+import { resolveWidthAsStyle } from './utils';
+export var EuiTableFooterCell = function EuiTableFooterCell(_ref) {
+  var children = _ref.children,
+      _ref$align = _ref.align,
+      align = _ref$align === void 0 ? LEFT_ALIGNMENT : _ref$align,
+      className = _ref.className,
+      width = _ref.width,
+      style = _ref.style,
+      rest = _objectWithoutProperties(_ref, ["children", "align", "className", "width", "style"]);
+
+  var classes = classNames('euiTableFooterCell', className);
+  var contentClasses = classNames('euiTableCellContent', className, {
+    'euiTableCellContent--alignRight': align === RIGHT_ALIGNMENT,
+    'euiTableCellContent--alignCenter': align === CENTER_ALIGNMENT
+  });
+  var styleObj = resolveWidthAsStyle(style, width);
+  return React.createElement("td", _extends({
+    className: classes,
+    style: styleObj
+  }, rest), React.createElement("div", {
+    className: contentClasses
+  }, React.createElement("span", {
+    className: "euiTableCellContent__text"
+  }, children)));
+};
+EuiTableFooterCell.propTypes = {
+  className: PropTypes.string,
+  "aria-label": PropTypes.string,
+  "data-test-subj": PropTypes.string,
+  align: PropTypes.oneOf(["left", "right", "center"]),
+  width: PropTypes.oneOfType([PropTypes.string.isRequired, PropTypes.number.isRequired])
+};
+EuiTableFooterCell.__docgenInfo = {
+  "description": "",
+  "methods": [],
+  "displayName": "EuiTableFooterCell",
+  "props": {
+    "align": {
+      "defaultValue": {
+        "value": "LEFT_ALIGNMENT",
+        "computed": true
+      },
+      "type": {
+        "name": "enum",
+        "value": [{
+          "value": "\"left\"",
+          "computed": false
+        }, {
+          "value": "\"right\"",
+          "computed": false
+        }, {
+          "value": "\"center\"",
+          "computed": false
+        }]
+      },
+      "required": false,
+      "description": ""
+    },
+    "className": {
+      "type": {
+        "name": "string"
+      },
+      "required": false,
+      "description": ""
+    },
+    "aria-label": {
+      "type": {
+        "name": "string"
+      },
+      "required": false,
+      "description": ""
+    },
+    "data-test-subj": {
+      "type": {
+        "name": "string"
+      },
+      "required": false,
+      "description": ""
+    },
+    "width": {
+      "type": {
+        "name": "union",
+        "value": [{
+          "name": "string"
+        }, {
+          "name": "number"
+        }]
+      },
+      "required": false,
+      "description": ""
+    }
+  }
+};
