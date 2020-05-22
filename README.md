@@ -10,7 +10,7 @@
 link : https://docs.google.com/document/d/1kmxd2ttocu6bilvRlLaSS8sOwrz3t7pidmixF8pahec
 
 ## 📹 Video 
-link : https://youtu.be/AEM_dDWVAH
+link : https://youtu.be/AEM_dDWVAH8
 
 
 ## Members
