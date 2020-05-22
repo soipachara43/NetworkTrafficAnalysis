@@ -9,6 +9,10 @@
 ## 📄 Document 
 link : https://docs.google.com/document/d/1kmxd2ttocu6bilvRlLaSS8sOwrz3t7pidmixF8pahec
 
+## 📹 Video 
+link : https://youtu.be/AEM_dDWVAH
+
+
 ## Members
 |<img src="/img/61070155.jpg" width="120" height="120"></a>|<img src="/img/61070161.jpg" width="120" height="120"></a>|<img src="/img/61070184.jpg" width="120" height="120"></a>|<img src="/img/61070217.jpg" width="120" height="120"></a>|<img src="/img/61070235.jpg" width="120" height="120"></a>|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
